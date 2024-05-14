@@ -1,0 +1,20 @@
+#todoCards{
+    display: flex;
+}
+
+.todoCard{
+    display: flex;
+    flex-direction: row;
+    position: relative;
+
+}
+
+.task{
+    resize: none;
+}
+
+.delBtn{
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
